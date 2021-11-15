@@ -1,4 +1,10 @@
-# alird
+# [ackevin/alird](https://github.com/Ac-Kevin/alird)
+
+[![GitHub Stars](https://img.shields.io/github/stars/Ac-Kevin/alird.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/Ac-Kevin/alird)
+[![GitHub Release](https://img.shields.io/github/release/Ac-Kevin/alird?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/Ac-Kevin/alird/releases)
+[![GitHub Package Repository](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitHub%20Package&logo=github)](https://github.com/Ac-Kevin/alird/packages)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ackevin/alird.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=pulls&logo=docker)](https://hub.docker.com/r/ackevin/alird)
+[![Docker Stars](https://img.shields.io/docker/stars/ackevin/alird.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=stars&logo=docker)](https://hub.docker.com/r/ackevin/alird)
 
 # 快速启动
 
