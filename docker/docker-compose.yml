@@ -1,0 +1,20 @@
+alird:
+  image: ackevin/alird
+  container_name: alird
+  restart: always
+  volumes:
+    - ./alird/logs:/alird/logs
+    - ./alird/config.ini:/alird/config.ini
+  environment:
+    # 刷新间隔时间
+    INTERVAL_TIME: 120
+
+    # 配置文件路径 默认 /alird/config.ini
+    # CONFIG_FILE: /alird/config.ini
+    
+    # 日志文件路径 默认 
+    LOG_FILEDIR: "/alird/logs"
+    
+    # 阿里云密钥
+    ALI_ACCESSKEYID: XXXXXXXXXXXXXXXXXX
+    ALI_ACCESSKEY_SECRET: XXXXXXXXXXXXXXXXX
