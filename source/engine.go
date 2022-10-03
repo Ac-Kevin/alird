@@ -39,7 +39,7 @@ func run(cfg *config.Config, client *aliclient.Client) {
 				req := alidns.CreateDescribeDomainRecordsRequest()
 				req.DomainName = domain.Name
 				req.SearchMode = "EXACT"
-				req.RRKeyWord = host
+				req.KeyWord = host
 				response, err := client.DescribeDomainRecords(req)
 				if err != nil {
 					log.Printf("Error: client.DescribeDomainRecords domain:%s error:%s", domain.Name, err.Error())
